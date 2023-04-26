@@ -8,14 +8,14 @@ You will need to have Python 3.6 or higher installed on your machine.
 An additional package named [PLY](https://www.dabeaz.com/ply) is also required.
 You can install it by running the following command:
 ```
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ## 📖 Usage
 
 To use the program, run the following command:
 ```sh
-python computor.py
+python3 computor.py
 ```
 
 ## 🔬 Examples
@@ -23,7 +23,7 @@ python computor.py
 ### Solve a linear equation
 
 ```sh
-python computor.py -s '7 * X - 2'
+python3 computor.py -s '7 * X - 2'
 ```
 
 - 💡 The *'-s'* option is used to show the intermediate steps of the resolution.
@@ -31,7 +31,7 @@ python computor.py -s '7 * X - 2'
 ### Solve a quadratic equation
 
 ```sh
-python computor.py -f '5 * X ^ 2 + 8 * X = -3'
+python3 computor.py -f '5 * X ^ 2 + 8 * X = -3'
 ```
 
 - 💡 The *'-f'* option is used to force the program to use fractions when possible.
